@@ -12,6 +12,24 @@ public class PostService {
     private CommentsPost commentsPost;
     private RePost rePost;
     private ViewPost viewPost;
+
+    //после рассмотрения документации
+    private int ownerId;
+    private int createdBy;
+    private int replyOwnerId;
+    private int replyPostId;
+    private int friendsOnly;
+    private CopyrightPost copyrightPost;
+    private String postType;
+    private PostSourse postSourse;
+    private Geo geo;
+    private int signerId;
+    private int isPinned;
+    private int markedAsAds;
+    private Boolean isFavorite;
+    private Donut donut;
+    private int postponedID;
+
 }
 
 
